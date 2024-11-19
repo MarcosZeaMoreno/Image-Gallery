@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: left;
+    margin: 20px 20px;
+    color: #333;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+#header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+#search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+#auth {
+	padding: 30px;
+
+	button {
+		transition: transform 0.2s ease-in-out;
+	}
+
+	button:hover {
+		transform: scale(1.1);
+	}
+}
+
+#search-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    background-color: #2fa19c;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    flex-shrink: 0; /* Evita que el botón se reduzca */
+}
+
+button:hover {
+    background-color: #005354;
+}
+
+#photos {
+    gap: 10px;
+    padding: 20px;
+}
+
+#photos img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+#photos img:hover {
+    transform: scale(1.05);
+}
