@@ -1,0 +1,5 @@
+services:
+  web:
+    image: image-gallery
+    ports:
+      - "8080:80"
